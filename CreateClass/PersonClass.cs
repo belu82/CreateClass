@@ -7,15 +7,11 @@ namespace CreateClass
     class Person
     {
         public String name;
-        public int age;
+        public DateTime age;
         public Genders genders;
 
-        public Person (String name, int age)
-        {
-            this.name = name;
-            this.age = age;
-        }
-        public Person(String name, int age, Genders genders)
+      
+        public Person(String name, DateTime age, Genders genders)
         {
             this.name = name;
             this.age = age;
@@ -27,7 +23,7 @@ namespace CreateClass
             get { return name; }
         }
 
-        public int Age
+        public DateTime Age
         {
             set { age = value; }
             get { return age; }
@@ -35,8 +31,7 @@ namespace CreateClass
 
         public override string ToString()
         {
-            return "Name: " + Name + " Age: " + Age + " Gender: " + genders;
-        
+            return "Name: " + Name + "Age: " + Age + "Gender: " + genders;
         }
 
    
