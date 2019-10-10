@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CreateClass
 {
-    class Person
+    public class Person
     {
         public String name;
         public DateTime age;

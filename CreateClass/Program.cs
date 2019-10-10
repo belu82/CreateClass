@@ -16,6 +16,9 @@ namespace CreateClass
             Console.WriteLine(person1);
             Console.WriteLine(person2);
 
+            Employee employee = new Employee("Kis Géza", new DateTime(1999, 11, 11), Genders.Male, 1211, "vizi naplopó", new Room(3));
+
+            Console.WriteLine(employee);
         }
     }
 }

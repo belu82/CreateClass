@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\Ádám\source\repos\CreateClass\CreateClass\Employee.cs" Link="Employee.cs" />
+    <Compile Include="C:\Users\Ádám\source\repos\CreateClass\CreateClass\GendersEnum.cs" Link="GendersEnum.cs" />
+    <Compile Include="C:\Users\Ádám\source\repos\CreateClass\CreateClass\PersonClass.cs" Link="PersonClass.cs" />
+    <Compile Include="C:\Users\Ádám\source\repos\CreateClass\CreateClass\Room.cs" Link="Room.cs" />
+  </ItemGroup>
+
 </Project>
