@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CreateClass
 {
-    class Employee : Person
+    class Employee : Person, ICloneable
     {
         public int salary;
         public string profession;
@@ -28,6 +28,12 @@ namespace CreateClass
             get { return profession; }
         }
 
+        public object Clone()
+        {
+            //return this.MemberwiseClone();
+            Employee newEmployee = (Employee)this.MemberwiseClone();
+            return newEmployee;
+        }
         public override string ToString()
         {
             return "\nEmployee name: " + Name + "\nEmployee salary: " + Salary + "\nRoom: " + room ;
